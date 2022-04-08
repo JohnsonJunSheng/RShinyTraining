@@ -1,7 +1,7 @@
 library(shiny)
 library(readxl)
 
-ClaimsData <- data.matrix(read_excel("RShinyAssignment.xlsx", sheet = "Claims Data"))
+ClaimsData <- data.matrix(read_excel("~/Desktop/RShinyTraining/RShinyAssignment.xlsx", sheet = "Claims Data"))
 
 
 PC <- matrix(NA, nrow = 3, ncol = 4)
